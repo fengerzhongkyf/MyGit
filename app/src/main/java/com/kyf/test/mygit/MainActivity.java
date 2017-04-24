@@ -31,4 +31,12 @@ public class MainActivity extends AppCompatActivity {
             btnFeature1.setText(R.string.feature_1);
         }
     }
+
+    public void feature2(View view) {
+        if (btnFeature2.getText().toString().equals("功能2")) {
+            btnFeature2.setText(R.string.feature_2_dis);
+        } else {
+            btnFeature2.setText(R.string.feature_2);
+        }
+    }
 }
